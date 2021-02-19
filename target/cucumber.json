@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-19T15:37:51.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4814846000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.Step_Definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Automate iframe",
+        "description": "",
+        "id": "iframe;automate-iframe",
+        "after": [
+          {
+            "result": {
+              "duration": 1424542900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demoqa.Step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2110617000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user on the main page.",
+            "match": {
+              "location": "com.demoqa.Step_Definitions.IframeStepDefs.the_user_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 405869100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should be able to click the \"Alerts\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alerts\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.demoqa.Step_Definitions.IframeStepDefs.the_user_should_be_able_to_click_the_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281908900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click on the \"Frames\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frames\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.demoqa.Step_Definitions.IframeStepDefs.the_user_click_on_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21251159800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user verify the \"This is sample page\" text.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is sample page\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.demoqa.Step_Definitions.IframeStepDefs.the_user_verify_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iframe"
+          }
+        ]
+      }
+    ],
+    "name": "Iframe",
+    "description": "",
+    "id": "iframe",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/iframe.feature",
+    "tags": [
+      {
+        "name": "@iframe",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
